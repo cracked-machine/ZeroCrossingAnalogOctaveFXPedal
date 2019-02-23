@@ -1,0 +1,562 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L OPA167x:OPA1678IDRG U?
+U 1 1 5C878EDE
+P 5250 2000
+F 0 "U?" H 5250 2515 50  0000 C CNN
+F 1 "OPA1678IDRG" H 5250 2424 50  0000 C CNN
+F 2 "" H 5300 2000 50  0001 C CNN
+F 3 "" H 5300 2000 50  0001 C CNN
+	1    5250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5C878FA0
+P 4450 2000
+F 0 "D?" V 4404 2079 50  0000 L CNN
+F 1 "1N4148" V 4495 2079 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4450 1825 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4450 2000 50  0001 C CNN
+	1    4450 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5C878FCB
+P 3950 2000
+F 0 "D?" V 3996 1921 50  0000 R CNN
+F 1 "1N4148" V 3905 1921 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3950 1825 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3950 2000 50  0001 C CNN
+	1    3950 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C879127
+P 3550 1800
+F 0 "R?" V 3343 1800 50  0000 C CNN
+F 1 "10K" V 3434 1800 50  0000 C CNN
+F 2 "" V 3480 1800 50  0001 C CNN
+F 3 "~" H 3550 1800 50  0001 C CNN
+	1    3550 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C879163
+P 3550 2200
+F 0 "R?" V 3343 2200 50  0000 C CNN
+F 1 "10K" V 3434 2200 50  0000 C CNN
+F 2 "" V 3480 2200 50  0001 C CNN
+F 3 "~" H 3550 2200 50  0001 C CNN
+	1    3550 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 2200 3950 2200
+Wire Wire Line
+	3700 1800 3950 1800
+Wire Wire Line
+	4450 1800 4450 1850
+Connection ~ 4450 1800
+Wire Wire Line
+	4450 1800 4750 1800
+Wire Wire Line
+	4450 2150 4450 2200
+Connection ~ 4450 2200
+Wire Wire Line
+	4450 2200 4750 2200
+Wire Wire Line
+	3950 2150 3950 2200
+Connection ~ 3950 2200
+Wire Wire Line
+	3950 2200 4450 2200
+Wire Wire Line
+	3950 1800 3950 1850
+Connection ~ 3950 1800
+Wire Wire Line
+	3950 1800 4450 1800
+Wire Wire Line
+	3400 1800 1200 1800
+$Comp
+L Device:R R?
+U 1 1 5C8792CA
+P 3550 3050
+F 0 "R?" V 3343 3050 50  0000 C CNN
+F 1 "10K" V 3434 3050 50  0000 C CNN
+F 2 "" V 3480 3050 50  0001 C CNN
+F 3 "~" H 3550 3050 50  0001 C CNN
+	1    3550 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L OPA167x:OPA1678IDRG U?
+U 1 1 5C87932F
+P 2200 3450
+F 0 "U?" H 2200 3965 50  0000 C CNN
+F 1 "OPA1678IDRG" H 2200 3874 50  0000 C CNN
+F 2 "" H 2250 3450 50  0001 C CNN
+F 3 "" H 2250 3450 50  0001 C CNN
+	1    2200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5C87942F
+P 4400 3250
+F 0 "D?" V 4354 3329 50  0000 L CNN
+F 1 "1N4148" V 4445 3329 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4400 3075 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4400 3250 50  0001 C CNN
+	1    4400 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5C8794C9
+P 3950 3250
+F 0 "D?" V 3996 3171 50  0000 R CNN
+F 1 "1N4148" V 3905 3171 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3950 3075 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3950 3250 50  0001 C CNN
+	1    3950 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C879500
+P 3550 3450
+F 0 "R?" V 3343 3450 50  0000 C CNN
+F 1 "10K" V 3434 3450 50  0000 C CNN
+F 2 "" V 3480 3450 50  0001 C CNN
+F 3 "~" H 3550 3450 50  0001 C CNN
+	1    3550 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 3450 3950 3450
+Wire Wire Line
+	3950 3100 3950 3050
+Connection ~ 3950 3050
+Wire Wire Line
+	3950 3050 3700 3050
+Wire Wire Line
+	4400 3100 4400 3050
+Connection ~ 4400 3050
+Wire Wire Line
+	4400 3050 3950 3050
+Wire Wire Line
+	3950 3400 3950 3450
+Connection ~ 3950 3450
+Wire Wire Line
+	3950 3450 4400 3450
+Wire Wire Line
+	4400 3400 4400 3450
+Connection ~ 4400 3450
+Wire Wire Line
+	4400 3450 4600 3450
+Wire Wire Line
+	950  2650 1200 2650
+Wire Wire Line
+	3400 2200 3200 2200
+Wire Wire Line
+	3200 2200 3200 2650
+Connection ~ 3200 2650
+$Comp
+L OPA167x:OPA1678IDRG U?
+U 2 1 5C87ABD0
+P 5250 3250
+F 0 "U?" H 5250 3765 50  0000 C CNN
+F 1 "OPA1678IDRG" H 5250 3674 50  0000 C CNN
+F 2 "" H 5300 3250 50  0001 C CNN
+F 3 "" H 5300 3250 50  0001 C CNN
+	2    5250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5C87BE1F
+P 3000 3450
+F 0 "D?" H 3000 3666 50  0000 C CNN
+F 1 "1N4148" H 3000 3575 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3000 3275 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3000 3450 50  0001 C CNN
+	1    3000 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3450 2750 3450
+Wire Wire Line
+	3150 3450 3200 3450
+$Comp
+L Diode:1N4148 D?
+U 1 1 5C87C7D7
+P 2200 4100
+F 0 "D?" H 2200 4316 50  0000 C CNN
+F 1 "1N4148" H 2200 4225 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2200 3925 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2200 4100 50  0001 C CNN
+	1    2200 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4100 1500 4100
+Wire Wire Line
+	1500 4100 1500 3650
+Wire Wire Line
+	1500 3650 1700 3650
+Wire Wire Line
+	2350 4100 2750 4100
+Wire Wire Line
+	2750 4100 2750 3450
+Connection ~ 2750 3450
+Wire Wire Line
+	2750 3450 2850 3450
+$Comp
+L Device:R R?
+U 1 1 5C87D319
+P 2200 4450
+F 0 "R?" V 1993 4450 50  0000 C CNN
+F 1 "10K" V 2084 4450 50  0000 C CNN
+F 2 "" V 2130 4450 50  0001 C CNN
+F 3 "~" H 2200 4450 50  0001 C CNN
+	1    2200 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2050 4450 1500 4450
+Wire Wire Line
+	1500 4450 1500 4100
+Connection ~ 1500 4100
+Wire Wire Line
+	2350 4450 3200 4450
+Wire Wire Line
+	3200 4450 3200 3450
+Connection ~ 3200 3450
+Wire Wire Line
+	3200 3450 3400 3450
+Wire Wire Line
+	1700 3250 1500 3250
+Wire Wire Line
+	1500 3250 1500 2650
+Connection ~ 1500 2650
+Wire Wire Line
+	1500 2650 3200 2650
+Text Label 3950 4200 0    50   ~ 0
+9V
+$Comp
+L Device:R R?
+U 1 1 5C880DF5
+P 3950 3800
+F 0 "R?" H 4020 3846 50  0000 L CNN
+F 1 "10M" H 4020 3755 50  0000 L CNN
+F 2 "" V 3880 3800 50  0001 C CNN
+F 3 "~" H 3950 3800 50  0001 C CNN
+	1    3950 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 3650 3950 3450
+Wire Wire Line
+	3950 3950 3950 4200
+$Comp
+L Device:C C?
+U 1 1 5C882D18
+P 5350 3950
+F 0 "C?" V 5098 3950 50  0000 C CNN
+F 1 "10p" V 5189 3950 50  0000 C CNN
+F 2 "" H 5388 3800 50  0001 C CNN
+F 3 "~" H 5350 3950 50  0001 C CNN
+	1    5350 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5200 3950 4600 3950
+Wire Wire Line
+	4600 3950 4600 3450
+Connection ~ 4600 3450
+Wire Wire Line
+	4600 3450 4750 3450
+Wire Wire Line
+	5500 3950 6200 3950
+Wire Wire Line
+	6200 3950 6200 3250
+Wire Wire Line
+	6200 3250 5750 3250
+Wire Wire Line
+	5750 2000 6200 2000
+$Comp
+L Switch:SW_DPDT_x2 SW?
+U 1 1 5C8857BB
+P 6950 2750
+F 0 "SW?" H 6950 2425 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 6950 2516 50  0000 C CNN
+F 2 "" H 6950 2750 50  0001 C CNN
+F 3 "" H 6950 2750 50  0001 C CNN
+	1    6950 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW?
+U 2 1 5C887237
+P 6950 3150
+F 0 "SW?" H 7000 3400 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 6950 3550 50  0000 C CNN
+F 2 "" H 6950 3150 50  0001 C CNN
+F 3 "" H 6950 3150 50  0001 C CNN
+	2    6950 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8150 2300 8000 2300
+Wire Wire Line
+	8000 2300 8000 2600
+Wire Wire Line
+	8150 2600 8000 2600
+Connection ~ 8000 2600
+Wire Wire Line
+	8000 2600 8000 2800
+Text Label 8000 2800 1    50   ~ 0
+GND
+Wire Wire Line
+	6200 3250 6650 3250
+Connection ~ 6200 3250
+Wire Wire Line
+	6750 3050 6200 3050
+Wire Wire Line
+	6200 3050 6200 2850
+Wire Wire Line
+	6750 2850 6200 2850
+Connection ~ 6200 2850
+Wire Wire Line
+	6200 2850 6200 2000
+Wire Wire Line
+	6650 3250 6650 2650
+Wire Wire Line
+	6650 2650 6750 2650
+Connection ~ 6650 3250
+Wire Wire Line
+	6650 3250 6750 3250
+$Comp
+L Device:R R?
+U 1 1 5C89B63E
+P 8250 1900
+F 0 "R?" V 8043 1900 50  0000 C CNN
+F 1 "10K" V 8134 1900 50  0000 C CNN
+F 2 "" V 8180 1900 50  0001 C CNN
+F 3 "~" H 8250 1900 50  0001 C CNN
+	1    8250 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8400 1900 8700 1900
+Wire Wire Line
+	8700 1900 8700 1950
+$Comp
+L Device:R R?
+U 1 1 5C89DC5F
+P 8250 3150
+F 0 "R?" V 8043 3150 50  0000 C CNN
+F 1 "10K" V 8134 3150 50  0000 C CNN
+F 2 "" V 8180 3150 50  0001 C CNN
+F 3 "~" H 8250 3150 50  0001 C CNN
+	1    8250 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8400 3150 8700 3150
+Wire Wire Line
+	8700 3150 8700 2950
+Wire Wire Line
+	8100 3150 7150 3150
+NoConn ~ 9250 2600
+Wire Wire Line
+	7100 4500 7200 4500
+Wire Wire Line
+	7750 4150 7750 3900
+Text Label 7750 3900 3    50   ~ 0
+GND
+Wire Wire Line
+	8300 4800 8600 4800
+Wire Wire Line
+	8600 4800 8600 5500
+Wire Wire Line
+	8600 5500 7100 5500
+Wire Wire Line
+	7100 5500 7100 4800
+Wire Wire Line
+	7100 4800 7200 4800
+Wire Wire Line
+	7750 5150 7750 5400
+Text Label 7750 5400 1    50   ~ 0
+GND
+Wire Wire Line
+	7100 4500 7100 3700
+Wire Wire Line
+	7100 3700 9400 3700
+Wire Wire Line
+	9400 3700 9400 2300
+Wire Wire Line
+	9400 2300 9250 2300
+$Comp
+L Diode:1N4148 D?
+U 1 1 5C8B99EE
+P 10200 3850
+F 0 "D?" V 10246 3771 50  0000 R CNN
+F 1 "1N4148" V 10155 3771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10200 3675 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 10200 3850 50  0001 C CNN
+	1    10200 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 4500 10200 4500
+Wire Wire Line
+	10200 4500 10200 4000
+$Comp
+L Device:Q_NJFET_DSG Q?
+U 1 1 5C8BB621
+P 10200 3000
+F 0 "Q?" V 10528 3000 50  0000 C CNN
+F 1 "Q_NJFET_DSG" V 10437 3000 50  0000 C CNN
+F 2 "" H 10400 3100 50  0001 C CNN
+F 3 "~" H 10200 3000 50  0001 C CNN
+	1    10200 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10200 3200 10200 3600
+$Comp
+L Device:R R?
+U 1 1 5C8BD317
+P 9700 3250
+F 0 "R?" H 9770 3296 50  0000 L CNN
+F 1 "10K" H 9770 3205 50  0000 L CNN
+F 2 "" V 9630 3250 50  0001 C CNN
+F 3 "~" H 9700 3250 50  0001 C CNN
+	1    9700 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 3400 9700 3600
+Wire Wire Line
+	9700 3600 10200 3600
+Connection ~ 10200 3600
+Wire Wire Line
+	10200 3600 10200 3700
+Wire Wire Line
+	9700 3100 9700 2900
+Wire Wire Line
+	9700 2900 10000 2900
+Wire Wire Line
+	10800 2900 10600 2900
+Wire Wire Line
+	10600 2900 10600 6100
+Wire Wire Line
+	1200 6100 1200 2650
+Connection ~ 10600 2900
+Wire Wire Line
+	10600 2900 10400 2900
+Connection ~ 1200 2650
+Wire Wire Line
+	1200 2650 1500 2650
+Wire Wire Line
+	1200 1800 1200 1000
+Wire Wire Line
+	1200 1000 9700 1000
+Wire Wire Line
+	9700 1000 9700 2900
+Connection ~ 1200 1800
+Wire Wire Line
+	1200 1800 950  1800
+Connection ~ 9700 2900
+$Comp
+L Device:R R?
+U 1 1 5C8D5FB0
+P 9950 6100
+F 0 "R?" V 9743 6100 50  0000 C CNN
+F 1 "4K7" V 9834 6100 50  0000 C CNN
+F 2 "" V 9880 6100 50  0001 C CNN
+F 3 "~" H 9950 6100 50  0001 C CNN
+	1    9950 6100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10100 6100 10600 6100
+Wire Wire Line
+	9800 6100 1200 6100
+Wire Wire Line
+	4400 3050 4750 3050
+Wire Wire Line
+	3200 2650 3200 3050
+Wire Wire Line
+	3200 3050 3400 3050
+Text HLabel 950  1800 0    50   Input ~ 0
+-SIGNAL
+Text HLabel 950  2650 0    50   Input ~ 0
++SIGNAL
+Text HLabel 10800 2900 2    50   Input ~ 0
+SUBOCT
+Text Notes 1450 4750 0    118  ~ 0
+PEAK DETECTOR
+Text Notes 3700 2650 0    118  ~ 0
+COMPARATORS
+Text Notes 7450 5950 0    118  ~ 0
+FREQ\nDIVIDER
+Text Notes 9850 2450 0    118  ~ 0
+FREQ\nMIXER
+Text Label 5850 2000 0    50   ~ 0
+SQUARE
+Text Label 5850 3250 0    50   ~ 0
+PULSE
+Text Notes 7650 1650 0    118  ~ 0
+PHASE LATCH
+Wire Wire Line
+	7850 2750 7850 1900
+Wire Wire Line
+	7850 1900 8100 1900
+Wire Wire Line
+	7150 2750 7850 2750
+Text Label 7250 2750 0    50   ~ 0
+ZEROCROSS
+Text Label 7250 3150 0    50   ~ 0
+90PHASELAG
+$Comp
+L SNx4LV74A_Dual_Positive-Edge-Triggered_D-Type_Flip-Flop:SNx4LV74A U?
+U 1 1 5C71CECA
+P 8700 2450
+F 0 "U?" H 8700 3128 50  0000 C CNN
+F 1 "SNx4LV74A" H 8700 3037 50  0000 C CNN
+F 2 "" H 8700 2450 50  0001 C CNN
+F 3 "" H 8700 2450 50  0001 C CNN
+	1    8700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SNx4LV74A_Dual_Positive-Edge-Triggered_D-Type_Flip-Flop:SNx4LV74A U?
+U 2 1 5C7249F7
+P 7750 4650
+F 0 "U?" H 7750 5328 50  0000 C CNN
+F 1 "SNx4LV74A" H 7750 5237 50  0000 C CNN
+F 2 "" H 7750 4650 50  0001 C CNN
+F 3 "" H 7750 4650 50  0001 C CNN
+	2    7750 4650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name OPA167x)(type Legacy)(uri ${KIPRJMOD}/lib/OPA167x.lib)(options "")(descr ""))
+  (lib (name SNx4LV74A_Dual_Positive-Edge-Triggered_D-Type_Flip-Flop)(type Legacy)(uri "${KIPRJMOD}/lib/SNx4LV74A Dual Positive-Edge-Triggered D-Type Flip-Flop.lib")(options "")(descr ""))
+)
